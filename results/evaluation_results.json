@@ -1,0 +1,17 @@
+{
+    "project": "Pix2Pix Image-to-Image Translation",
+    "dataset": "Facades",
+    "training_images": 400,
+    "validation_images": 100,
+    "test_images": 106,
+    "epochs_completed": 40,
+    "best_validation_l1": 0.35732238724827764,
+    "test_l1": 0.3664,
+    "test_mse": 0.057,
+    "test_psnr_db": 12.66,
+    "image_size": "256x256",
+    "batch_size": 1,
+    "learning_rate": 0.0002,
+    "optimizer": "Adam",
+    "architecture": "U-Net Generator + PatchGAN Discriminator"
+}
